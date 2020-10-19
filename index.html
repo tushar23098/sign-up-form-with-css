@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sign-Up Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style type="text/css">
+    *{ 
+        font-family: 'Montserrat', sans-serif;
+        margin: 0; padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    form{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;}
+    
+    .sign-upform{
+        border: 3px solid #707070;
+        width: 40%;
+        height: 70%;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+<section class="container sign-upform" style="border:1px solid black;">
+    <form>
+        <h1>
+            <span style="color:black;"><strong>Sign-Up</strong> </span>
+            <span style="color: tomato;"><strong>Form</strong></span>
+            </h1>
+        <hr style= "width: 180px; height:2px; background: coral; margin-left: 200px;"><br><br>
+        <label>Enter  First Name : </label>
+        <input type="text" name = "firstName"><br><br><br>
+        <label>Enter Last Name : </label>
+        <input type="text" name = "lastName"><br><br><br>
+        <label>Enter  User Name : </label>
+        <input type="text" name = "userName"><br><br><br>
+        <label>Enter Your Email : </label>
+        <input type="email" name="email" placeholder="xyz@gmail.com"><br><br><br>
+        <label>Enter Password : </label>
+        <input type="password" name="password"><br><br><br>
+        <label>Enter Your DOB : </label>
+        <input type="date" name="dob"><br><br><br>
+        <label>Enter Your Phone Number : </label>  
+        <input type="number" name="pNo." placeholder="+91-xxxxxxxx89"><br><br><br>
+        <label>Enter Your Gender : </label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other<br><br><br>
+        <input type="submit" name="submit" style="color: white; background-color:tomato; border-radius:5px;">
+    </form>
+</section>
+</body>
+</html>
